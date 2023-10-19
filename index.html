@@ -41,16 +41,29 @@
 
     <main>
       <section id="hero">
+        <div
+        class="bg-image d-flex justify-content-center align-items-center"
+        style="
+        background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/015.webp');
+        height: 50vh;
+        ">
+        <div class="col-5">
+          <div class="row justify-content-center">
+        <h1 class="text-light">Main heading for page</h1>
+        <p class="text-light">Some lead text or subtitle</p>
+      </div>
+    </div>
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div> 
+        </div>
           <!-- Use flexbox classes to set hero text in the center of the image -->
           <div>
             <!-- Change text to white and center align text -->
             <div>
               <!-- Use a display class for font for the h1 -->
-              <h1>Main heading for page</h1>
+              
               <!-- Use an appropriate class that styles the following text as lead text -->
-              <p>Some lead text or subtitle</p>
+              
             </div>
           </div>
         </div>
@@ -61,12 +74,14 @@
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div>
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
+          <div class="mb-4 p-3 bg-light">
           <h2>Section heading</h2>
           <!-- Using the grid system, adjust the following so that the text is 100% until the large breakpoint when it will then span 10 columns -->
           <div>
             <div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
+          </div>
           </div>
         </div>
       </section>
@@ -75,19 +90,29 @@
       <!-- Set section background color to use the dark theme with light text -->
       <section id="two-column-section">
         <!-- Use a container class that will set a max-width at each breakpoint -->
+        
         <div>
+          
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
+          <div class=" div div-dark bg-dark text-light">
           <h2>Section heading</h2>
+
           <!-- Using the grid system, adjust the following so that the text in both divs are 100% until the small breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands -->
+          <div class="container-lg">
           <div>
-            <div>
+            <div class="row">
+            <div class="col">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
-            <div>
+            <div class="col">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
           </div>
         </div>
+        </div>
+        </div>
+        </div>
+      </div>
       </section>
 
       <!-- Add padding to the top and bottom of the section -->
@@ -128,15 +153,26 @@
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div>
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Some heading</h2>
+          <div class=" div div-dark bg-dark text-light">
+          
           <!-- Using the grid system, adjust the first image and text are 100% until the large breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands. -->
           <div>
             <div>
               <!-- Adjust the img with a class to make it responsive (fluid) -->
-              <img src="images/abstract.jpg" alt="">
+              <div class="container-lg">
+                <div class="row">
+                
+                  <div class="col">
+                <h2>Some heading</h2>
+                <img src="/abstract.jpg" class="img-fluid"alt="">
+                </div>
             </div>
             <div>
+              <div class="col">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
+            </div>
+            </div>
+            </div>
             </div>
           </div>
           <!-- Using the grid system, adjust the second image and text are 100% until the large breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands. -->
@@ -144,11 +180,16 @@
           <div>
             <div>
               <!-- Adjust the img with a class to make it responsive (fluid) -->
-              <img src="images/abstract.jpg" alt="">
+              <div class="container-lg">
+                <div class="row">
+              <img src="/abstract.jpg" class="img-fluid" alt="">
             </div>
             <div>
               <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
+              </div>
+              </div>
+              </div>
               </div>
             </div>
           </div>
@@ -160,9 +201,11 @@
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div>
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
+          <div class="mb-4">
           <h2>Pick any Bootstrap component and explore</h2>
           <p>Within the available space, choose any component from Bootstrap and showcase it here. It can be as simple or complicated as you like but must stay within the div below.</p>
           <div>
+          </div>
             <!-- Place component here.  -->
           </div>
         </div>
@@ -175,8 +218,11 @@
       <!-- Center align text -->
       <!-- Add padding to the top and bottom using value 3 -->
       <div class="container py-3 text-center">
+        <div class="div div-dark bg-dark text-light">
         <p class="mb-0">&copy; 2023 Spooky Night 2023</p>
       </div>
+      </div>
+    
 
     </footer>
 

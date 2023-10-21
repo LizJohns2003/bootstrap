@@ -5,18 +5,32 @@
   background-repeat: no-repeat;
 }
 
+@include media-breakpoint-only(xs) { ... }
+@include media-breakpoint-only(sm) { ... }
+@include media-breakpoint-only(md) { ... }
+@include media-breakpoint-only(lg) { ... }
+@include media-breakpoint-only(xl) { ... }
+
 #hero .d-flex{
   height: 70vh;
 }
 
 @media (min-width:576px){
-
+#navigation{
+  width: 576px;
+}
 }
 
 @media (min-width:768px){
 
+  #cards{
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+  }
 }
 
 @media (min-width:992px){
-  
+  #navigation{
+    width: 992px;
+  }
 }
